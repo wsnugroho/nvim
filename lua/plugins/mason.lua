@@ -1,8 +1,10 @@
 return {
   "williamboman/mason.nvim",
-  opts = function(_, opts)
-    opts.ui = {
+  opts = {
+    ui = {
+      width = 0.8,
+      height = 0.8,
       border = "rounded",
-    }
-  end,
+    },
+  },
 }
